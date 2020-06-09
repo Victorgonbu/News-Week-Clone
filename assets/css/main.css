@@ -46,12 +46,35 @@ main .story-cards span {
    letter-spacing: -1px;
 }
 
+main .story-cards figure   {
+    position: relative;
+}
+main .story-cards figure a{
+     position: absolute;
+     left: 0;
+     bottom: 0;
+}
+
 main .story-cards h2 {
     font-size: 1.4em;
     font-weight: 700;
+    line-height: 1;
 }
 
 main .story-cards p {
     font-size: 0.82em;
 }
 
+.debate-section {
+    background-color: white;
+}
+
+.debate-section .debate.media {
+    
+}
+
+
+.debate-section .debate.media img {
+    width: 63px;
+    height: 63px;
+}
