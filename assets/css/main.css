@@ -1,3 +1,7 @@
+.bolder {
+    font-weight: 700;
+}
+
 header nav .brand {
     width: 132px;
 }
@@ -10,15 +14,6 @@ header nav .brand svg {
 header nav {
     height: 50px;
     background-color: #f72210;
-}
-
-header nav div {
-    
-    
-}
-
-header nav div button {
-  
 }
 
 .d-flex.align-items-center > button:nth-child(2){
@@ -55,7 +50,7 @@ main .story-cards figure a{
      bottom: 0;
 }
 
-main .story-cards h2 {
+main .story-cards  h2 a {
     font-size: 1.4em;
     font-weight: 700;
     line-height: 1;
@@ -65,7 +60,7 @@ main .story-cards p {
     font-size: 0.82em;
 }
 
-.debate-section div > a,
+.debate-section article > a,
 .opinion  > a
  {
     color: rgba(3, 3, 3, 0.4);
@@ -78,15 +73,29 @@ main .story-cards p {
 
 .debate-section .wrapper-debate .versus {
     height: 10%;
-    background-color: rgba(3, 3, 3, 0.4);
+    position: relative;
+    justify-content: center;
 }
 
-.debate-section .debate.media:first-child {
+.debate-section .wrapper-debate .versus div {
+    border: 0.1px solid #333;
+    height: 11%;
+}
+
+.debate-section .wrapper-debate .versus i {
+    position: absolute;
+    background-color: #000;
+    font-weight: 700;
+    
+}
+
+.debate-section .media.first {
     border-top: 3px solid red;
     height: 40%;
 }
 
 .debate-section .debate.media:last-child {
+    
     border-bottom: 3px solid #1c87fb;
     height: 40%;
 }
@@ -95,6 +104,7 @@ main .story-cards p {
 .debate-section .debate.media img {
     max-width: 63px;
     max-height: 63px;
+    
 }
 
 .debate-section .debate.media h3 {
@@ -106,4 +116,24 @@ main .story-cards p {
     font-size: 1em;
     font-weight: 700;
 }
+
+.debate-section .opinion .media .media-body a {
+    display: inline-block;
+    font-size: 1.03em;
+    font-weight: 700;
+    color: #000;    
+    line-height: 1.2;
+}
+
+.debate-section .opinion .media .media-body p {
+    font-size: 0.85em;
+    color: #555;
+}
+
+.featured-stories.sponsored-section-1 > div > * {
+    border: 1px solid #e6e6e6;
+    width: 92%;
+    margin: 0 auto;
+}
+
 
