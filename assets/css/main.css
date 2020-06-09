@@ -1,0 +1,57 @@
+header nav .brand {
+    width: 132px;
+}
+
+header nav .brand svg {
+    fill: white;
+    height: 100%;
+}
+
+header nav {
+    height: 50px;
+    background-color: #f72210;
+}
+
+header nav div {
+    
+    
+}
+
+header nav div button {
+  
+}
+
+.d-flex.align-items-center > button:nth-child(2){
+    font-size: .7em;
+    border-radius: 16px;
+    padding: 3px;
+    font-weight: 700;
+    background-color: #ffe400;
+}
+
+main {
+    position: relative;
+    top: 30px;
+    background-color: #f4f5f7;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main div.wrapper-content {
+    max-width: 1310px;
+}
+
+main .story-cards span {
+   color: rgba(3, 3, 3, 0.4);
+   font-weight: 700;
+   letter-spacing: -1px;
+}
+
+main .story-cards h2 {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+main .story-cards p {
+    font-size: 0.82em;
+}
+
