@@ -1,0 +1,6 @@
+@media (max-width: 780px) {
+    .story-cards.top-story.card.border-0.mb-3 {
+        order: 1;
+        
+    }
+  }

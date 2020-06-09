@@ -173,8 +173,36 @@ main .story-cards p {
     color: rgba(3, 3, 3, 0.5);
 }
 
+.sponsored-section-2 .form {
+    background-color: #f4f5f6;
+    max-width: 80%;
+    
+}
+
+.sponsored-section-2 .form  div.d-flex{
+    align-items: center;
+}
+
+.sponsored-section-2 .form  div.d-flex label {
+    line-height: 1;
+    font-size: 1.2em;
+}
+
+.sponsored-section-2 .form input {
+    border: 1px solid rgb(206, 202, 202);
+}
+
 .sponsored-section-2 .form button {
     background-color: #f61602;
 
+}
+
+.sponsored-section-2 .form span {
+    display: inline-block;
+    text-align: center;
+    width: 29px;
+    height: 28px;
+    background-color: #f61602;
+    color: #fff;
 }
 
