@@ -51,7 +51,9 @@ main .story-cards figure a{
 }
 
 main .story-cards  h2 a {
-    font-size: 1.4em;
+    display: inline-block;
+    color: black;
+    font-size: 0.6em;
     font-weight: 700;
     line-height: 1;
 }
