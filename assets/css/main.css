@@ -65,16 +65,45 @@ main .story-cards p {
     font-size: 0.82em;
 }
 
-.debate-section {
-    background-color: white;
+.debate-section div > a,
+.opinion  > a
+ {
+    color: rgba(3, 3, 3, 0.4);
 }
 
-.debate-section .debate.media {
-    
+.debate-section .wrapper-debate {
+    height: 290px;
+    background-color: #fff;    
+}
+
+.debate-section .wrapper-debate .versus {
+    height: 10%;
+    background-color: rgba(3, 3, 3, 0.4);
+}
+
+.debate-section .debate.media:first-child {
+    border-top: 3px solid red;
+    height: 40%;
+}
+
+.debate-section .debate.media:last-child {
+    border-bottom: 3px solid #1c87fb;
+    height: 40%;
 }
 
 
 .debate-section .debate.media img {
-    width: 63px;
-    height: 63px;
+    max-width: 63px;
+    max-height: 63px;
 }
+
+.debate-section .debate.media h3 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.debate-section .debate.media p span{
+    font-size: 1em;
+    font-weight: 700;
+}
+
