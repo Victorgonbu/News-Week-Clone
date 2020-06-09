@@ -133,10 +133,9 @@ main .story-cards p {
     color: #555;
 }
 
-.featured-stories.sponsored-section-1 > div > * {
+.featured-stories.sponsored-section > div > * {
     border: 1px solid #e6e6e6;
-    width: 92%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .more-stories-hero .more-stories li:first-child {
@@ -152,3 +151,30 @@ main .story-cards p {
     font-size: 14px;
     margin-bottom: 0;
 }
+
+.main-stories  span {
+    display: inline-block;
+    border: 1px solid #333;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+}
+
+.main-stories .my-turn-and-culture {
+    border: 0;
+}
+
+.main-stories .my-turn-and-culture h2 a {
+    font-size: 0.5em;
+    color: rgba(3, 3, 3, 0.4); 
+}
+
+.main-stories .my-turn-and-culture .card-tittle {
+    color: rgba(3, 3, 3, 0.5);
+}
+
+.sponsored-section-2 .form button {
+    background-color: #f61602;
+
+}
+
