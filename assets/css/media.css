@@ -1,6 +1,26 @@
-@media (max-width: 780px) {
+@media (min-width: 780px) {
     .story-cards.top-story.card.border-0.mb-3 {
         order: 1;
         
+    }
+
+    .story-cards.featured-stories.card.border-0.mb-3 {
+        order: 0;
+    }
+
+    .story-cards.featured-stories.sponsored-section.card.mt-3.border-0.mb-3{
+        order: 2;
+    }
+
+    .more-stories-hero.d-flex.flex-column {
+        order: 3;
+    }
+
+    .container-fluid.p-0.debate-section {
+        order: 4;
+    }
+
+    .story-cards.featured-stories.sponsored-section.sponsored-section-2.card.border-0.mb-3 {
+        order: 5;
     }
   }
