@@ -276,3 +276,79 @@ main div.wrapper-content {
     
 }
 
+.newssletter h6 {
+    color: #f72210;
+    font: 1em;
+    font-weight: 600;
+}
+
+.newssletter .sub-content {
+     top: 51%;
+}
+
+.subscribe-content {
+    height: 400px;
+}
+
+.sub-content button {
+ background-color: #f72210;
+    color: white;
+    font-weight: 700;
+    width: 35%;
+
+}
+
+.submission form {
+    border: 1px solid #ebebeb;
+    margin: 0 1em 0 1em;
+    
+}
+
+.submission form input {
+    border: 2px solid #ebebeb;
+}
+
+.submission form button {
+    background-color: #f61602;
+}
+
+.submission form label span {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: initial;
+    font-size: 0.95em;
+}
+
+.submission form label .title {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+.two-images {
+    height: 245px;
+    width: 260px;
+    margin: 0 auto  ;
+    display: flex;
+}
+
+.two-images img:first-child{
+    width: 70%;
+    height: 95%;
+}
+
+.two-images img:last-child {
+right: 0;
+bottom: 0;
+width: 67%;
+height: 95%;
+position: absolute;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+}
+
+
