@@ -36,22 +36,43 @@ main div.wrapper-content {
     max-width: 1310px;
 }
 
-main .story-cards span {
+.story-cards h4 {
+    font-size: 1.15em;
+    letter-spacing: -0.2px;
+}
+
+.story-cards h4 span {
+    background-color: #f72210;
+}
+
+.story-cards a.btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #f72210;
+    border-radius: 0;
+    font-weight: 600;
+    border: 0;
+}  
+
+.story-cards.featured-stories.sponsored-section a.btn {
+    color: #3584f4;
+}
+
+.story-cards span {
    color: rgba(3, 3, 3, 0.4);
    font-weight: 700;
    letter-spacing: -1px;
 }
 
-main .story-cards figure   {
+.story-cards figure   {
     position: relative;
 }
-main .story-cards figure a{
+.story-cards figure a{
      position: absolute;
      left: 0;
      bottom: 0;
 }
 
-main .story-cards  h2 a {
+.story-cards  h2 a {
     display: inline-block;
     color: black;
     font-size: 0.6em;
@@ -59,7 +80,7 @@ main .story-cards  h2 a {
     line-height: 1;
 }
 
-main .story-cards p {
+.story-cards p {
     font-size: 0.82em;
 }
 
@@ -154,10 +175,12 @@ main .story-cards p {
 
 .main-stories  span {
     display: inline-block;
-    border: 1px solid #333;
-    background-color: white;
+    font-size: 0.8em;
+    background-color: #c2d4d7;
+    border: 0;
     left: 0;
     bottom: 0;
+    padding: 0 3px 0 3px;
 }
 
 .main-stories .my-turn-and-culture {
@@ -204,5 +227,46 @@ main .story-cards p {
     height: 28px;
     background-color: #f61602;
     color: #fff;
+}
+
+.in-the-magazine .card-title:hover  {
+   background: #dbdcdd;
+   text-decoration: none;
+}
+
+.in-the-magazine figure span {
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    color: #f72210;
+    font-size: 1em;
+    background-color: white;
+    padding: 0.4em;
+}
+
+
+.in-the-magazine .magazine span {
+    font-weight: 700;
+    margin: 0.5em 0 0.5em 0 ;
+}
+
+.in-the-magazine .magazine span:first-child {
+    color: #fff;
+    background-color: #f72210;
+}
+
+.in-the-magazine .magazine span:nth-child(2) {
+    color: #f72210;
+}
+
+.in-the-magazine .magazine img {
+    width: 100%;
+}
+
+.in-the-magazine .magazine a {
+    color: #000;
+    font-size: 1em;
+    line-height: 1;
+    
 }
 
