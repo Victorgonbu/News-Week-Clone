@@ -1,6 +1,12 @@
-@media (min-width: 780px) {
+@media (min-width: 768px) {
     .story-cards.top-story.card.border-0.mb-3 {
-        order: 1;
+        
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    .story-cards.top-story.card.border-0.mb-3 {
         
     }
 
