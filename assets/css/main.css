@@ -395,9 +395,6 @@ position: absolute;
 }
 
 footer {
-    border: 3px solid black;
-    height: 500px;
-    width: 100%;
     position: relative;
     top: 10px;
 }
@@ -421,3 +418,12 @@ footer .social-links li i {
     width: 24px;
 }
 
+footer .edition-links li a {
+    color: #666;;
+    font-weight: 400;
+}
+
+footer .edition-links li a:hover {
+    text-decoration: none;
+    color: #000;
+}
