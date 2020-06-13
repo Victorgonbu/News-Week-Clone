@@ -9,20 +9,22 @@
 
 }
 
-header nav {
+
+.header nav {
  width: 100%;
+ 
 }
 
-header nav .brand {
+.header nav .brand {
     width: 132px;
 }
 
-header nav .brand svg {
+.header nav .brand svg {
     fill: white;
     height: 100%;
 }
 
-header nav {
+.header nav {
     height: 50px;
     background-color: #f72210;
 }
