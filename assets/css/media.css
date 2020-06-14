@@ -29,6 +29,28 @@
     order: 2;
 
    }
+   
+    
+   .header button.subscribe-btn {
+    border: 0;
+    width: 128px;
+    font-size: 1.1em;
+    border-radius: 16px;
+    padding: 1px 10px;
+    font-weight: 700;
+    background-color: #ffe400;
+    display: inline-block;
+  }
+
+  .header nav div button:first-child {
+    font-size: 18px;
+   }
+
+   .header nav div button:last-child {
+     font-size: 28px;
+     color: rgba(255, 255, 255, 0.6);
+   }
+
 
    
 
