@@ -1,7 +1,39 @@
 @media (min-width: 768px) {
-    .story-cards.top-story.card.border-0.mb-3 {
-        
+  .top-story{
+        order: 1;
     }
+   
+  .more-stories-hero {
+    order: 2;
+
+    }
+
+  .debate-section  {
+    order: 2;
+    } 
+ 
+
+
+   .story-cards.featured-stories {
+    order: 0;
+   }
+
+   
+
+   .story-cards.featured-stories.sponsored-section  {
+    order: 2;
+
+   }
+
+   .story-cards.featured-stories.sponsored-section.sponsored-section-2 {
+    order: 2;
+
+   }
+
+   
+
+
+   
   }
 
 

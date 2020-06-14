@@ -9,32 +9,38 @@
 
 }
 
+.fa {
+    font-size: 8px;
+    vertical-align: middle;
+}
 
 .header nav {
  width: 100%;
- 
+ height: 50px;
+ padding: 15px 15px;
+ background-color: #f72210;
+
+ justify-content: space-between;
 }
 
 .header nav .brand {
     width: 132px;
+
 }
 
 .header nav .brand svg {
     fill: white;
-    height: 100%;
 }
 
-.header nav {
-    height: 50px;
-    background-color: #f72210;
-}
-
-.d-flex.align-items-center > button:nth-child(2){
-    font-size: .7em;
+button.subscribe-btn {
+    border: 0;
+    width: 93px;
+    font-size: 0.85em;
     border-radius: 16px;
-    padding: 3px;
+    padding: 1px 10px;
     font-weight: 700;
     background-color: #ffe400;
+    display: inline-block;
 }
 
 body {
