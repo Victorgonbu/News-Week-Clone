@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
-  
+   html {
+     background-color: #f4f5f6;
+   }
   
    body {
   
@@ -57,6 +59,10 @@
    .header nav div button:last-child {
      font-size: 28px;
      color: rgba(255, 255, 255, 0.6);
+   }
+
+   body.container-fluid.p-0 {
+     background-color: white; 
    }
 
    .my-turn-and-culture {

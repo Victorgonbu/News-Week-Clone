@@ -51,10 +51,10 @@ button.subscribe-btn {
   }
 
 
-body {
+body.container-fluid {
     max-width: 1310px;
     min-width: 320px;
-    background-color: red;
+    background-color: #f4f5f6;
 }
 
 main {
