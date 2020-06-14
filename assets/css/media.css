@@ -1,15 +1,21 @@
 @media (min-width: 768px) {
+  
+  
+   body {
+   background-color: #fff;
+   }
+
   .top-story{
         order: 1;
     }
    
   .more-stories-hero {
-    order: 2;
+    order: 4;
 
     }
 
   .debate-section  {
-    order: 2;
+    order: 5;
     } 
  
 
@@ -21,34 +27,40 @@
    
 
    .story-cards.featured-stories.sponsored-section  {
-    order: 2;
+    order: 3;
+    
 
    }
 
    .story-cards.featured-stories.sponsored-section.sponsored-section-2 {
-    order: 2;
+    order: 6;
+    max-width: 362px;
+    margin: 0 auto;
 
+   }
+
+   .sponsored-section.sponsored-section-2 .form {
+    max-width: 90%;
+    
+}
+
+   .header nav div button:first-child {
+    font-size: 18px;
    }
    
     
    .header button.subscribe-btn {
-    border: 0;
     width: 128px;
     font-size: 1.1em;
-    border-radius: 16px;
-    padding: 1px 10px;
-    font-weight: 700;
-    background-color: #ffe400;
-    display: inline-block;
   }
-
-  .header nav div button:first-child {
-    font-size: 18px;
-   }
 
    .header nav div button:last-child {
      font-size: 28px;
      color: rgba(255, 255, 255, 0.6);
+   }
+
+   .my-turn-and-culture {
+     padding-bottom: 0;
    }
 
 
