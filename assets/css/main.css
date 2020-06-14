@@ -54,7 +54,7 @@ button.subscribe-btn {
 body {
     max-width: 1310px;
     min-width: 320px;
-    background-color: #f4f5f7;
+    background-color: red;
 }
 
 main {
@@ -66,12 +66,14 @@ main div.wrapper-content {
     max-width: 100%;
 }
 
-.story-cards h4 {
-    font-size: 1.15em;
+.editors-pick-wrapper h4 {
+    margin: 0  1em;
+    font-size: 1.2em;
     letter-spacing: -0.2px;
+    border-bottom: 1px solid #d9d9d9;
 }
 
-.story-cards h4 span {
+.editors-pick-wrapper h4 span {
     background-color: #f72210;
 }
 
@@ -263,6 +265,20 @@ main div.wrapper-content {
     color: #fff;
 }
 
+.magazine-wrapper h6 {
+    font-size: 1.2em;
+}
+
+ .magazine-wrapper h6 span {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 1px 6px;
+    background-color: #f72210;
+
+ } 
+
 .in-the-magazine .card-title:hover  {
    background: #dbdcdd;
    text-decoration: none;
@@ -299,7 +315,7 @@ main div.wrapper-content {
 
 .in-the-magazine .magazine a {
     color: #000;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1;
     
 }
