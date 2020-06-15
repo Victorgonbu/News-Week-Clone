@@ -33,7 +33,6 @@
 }
 
 
-
 button.subscribe-btn {
     border: 0;
     width: 93px;
@@ -330,6 +329,10 @@ main div.wrapper-content {
      top: 51%;
 }
 
+.subscribe .sub-content {
+    position: absolute;
+}
+
 .subscribe-content {
     height: 400px;
 }
@@ -338,7 +341,7 @@ main div.wrapper-content {
  background-color: #f72210;
     color: white;
     font-weight: 700;
-    width: 35%;
+    width: 122px;
 
 }
 
@@ -372,7 +375,7 @@ main div.wrapper-content {
 
 .two-images {
     height: 245px;
-    width: 260px;
+    min-width: 260px;
     margin: 0 auto  ;
     display: flex;
 }
@@ -412,17 +415,21 @@ position: absolute;
     border-bottom: 1px solid #f72210;
 }
 
-.news-category .card h2 {
+
+.news-category  h2 {
     border-top: 1px solid #d9d9d9;
     padding-top: 0.4em;
+    margin: 0 0.5em;
+    padding-bottom: 0.15em;
+    
 }
 
-.news-category .card h2 a{
+.news-category  h2 a{
   color: #f72210;
   font-size: 0.7em;
 }
 
-.news-category .card h2 a:hover{
+.news-category  h2 a:hover{
     text-decoration: none;
 }
 

@@ -84,6 +84,25 @@
     font-size: 1.2em;
 }
 
+.news-category div .card-title {
+  font-size: 1.38em;
+}
+
+.news-category ul .card-title {
+  font-size: 1.05em;
+}
+
+div.subscribe-content {
+  height: 100%;
+}
+
+.newssletter .subscribe .sub-content {
+  position: static;
+}
+
+.newssletter .subscribe .sub-content h5 {
+  font-size: 1.4em;
+} 
 
 
    
