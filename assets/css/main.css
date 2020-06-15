@@ -18,6 +18,10 @@ header {
     z-index:1;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 .header nav {
  width: 100%;
  height: 50px;
@@ -463,11 +467,17 @@ footer .social-links li i {
   
 }
 
+
 footer .edition-links li a {
     color: #666;;
     font-weight: 400;
+   
+ 
+
 
 }
+
+
 
 footer .edition-links li a:hover {
     text-decoration: none;
