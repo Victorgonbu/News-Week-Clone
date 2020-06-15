@@ -104,6 +104,31 @@ div.subscribe-content {
   font-size: 1.4em;
 } 
 
+.submission .form img {
+  max-width: 191px;
+  height: 233px;
+
+}
+
+.submission .form div {
+  width: 100%;
+}
+
+footer .edition-links label strong {
+  line-height: 13px;
+}
+
+footer .edition-links li a{
+   border-left: 1px solid lightgrey;
+   border-right: 1px solid lightgrey;
+   line-height: 14px;
+   display: block;
+   padding: 0 4px;
+   
+}
+
+
+
 
    
 
