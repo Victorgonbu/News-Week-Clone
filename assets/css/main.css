@@ -73,6 +73,16 @@ main div.wrapper-content {
     max-width: 100%;
 }
 
+.editors-pick-wrapper h2 {
+    line-height: 0;
+}
+
+.editors-pick-wrapper h2 a:hover {
+    text-decoration: none;
+    display: inline;
+    border-bottom: 1px solid red;
+}
+
 .editors-pick-wrapper h4 {
     margin: 0  1em;
     font-size: 1.2em;
@@ -285,6 +295,12 @@ main div.wrapper-content {
     background-color: #f72210;
 
  } 
+
+ .magazine a:hover {
+     text-decoration: none;
+     display: inline;
+     border-bottom: 1px solid red;
+     }
 
 .in-the-magazine .card-title:hover  {
    background: #dbdcdd;
