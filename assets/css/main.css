@@ -102,6 +102,16 @@ main div.wrapper-content {
     border: 0;
 }  
 
+.story-cards article h2 {
+    line-height: 0.7;
+}
+
+.story-cards article h2 a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid red;
+
+}
+
 .story-cards.featured-stories.sponsored-section {
     width: 100%;
 }
@@ -126,15 +136,22 @@ main div.wrapper-content {
 }
 
 .story-cards  h2 a {
-    display: inline-block;
     color: black;
     font-size: 0.6em;
     font-weight: 700;
-    line-height: 1;
 }
 
 .story-cards p {
     font-size: 0.82em;
+}
+
+.debate-section a:hover {
+    text-decoration: none;
+}
+
+.debate-section .opinion li .media-body a:hover {
+    color: red;
+
 }
 
 .debate-section article > a,
@@ -219,7 +236,14 @@ main div.wrapper-content {
 .more-stories-hero .more-stories a {
     color: #000;
     font-size: 17px;
+    
 }
+
+.more-stories-hero .more-stories a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+
 
 .more-stories-hero .more-stories p {
     font-size: 14px;
@@ -245,8 +269,12 @@ main div.wrapper-content {
     color: rgba(3, 3, 3, 0.4); 
 }
 
-.main-stories .my-turn-and-culture .card-tittle {
+.main-stories .my-turn-and-culture .card-tittle a{
     color: rgba(3, 3, 3, 0.5);
+}
+
+.main-stories  a:hover {
+    text-decoration: none;
 }
 
 .sponsored-section-2 .form {
