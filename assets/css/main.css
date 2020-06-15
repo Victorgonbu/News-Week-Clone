@@ -456,12 +456,13 @@ footer .social-links p {
 
 footer .social-links li i {
     color: #666;
-    width: 24px;
+  
 }
 
 footer .edition-links li a {
     color: #666;;
     font-weight: 400;
+
 }
 
 footer .edition-links li a:hover {

@@ -119,12 +119,22 @@ footer .edition-links label strong {
 }
 
 footer .edition-links li a{
-   border-left: 1px solid lightgrey;
-   border-right: 1px solid lightgrey;
+   border-left: 1px solid #d9d9d9;
+   border-right: 1px solid #d9d9d9;
    line-height: 14px;
    display: block;
    padding: 0 4px;
    
+}
+
+footer .social-links p {
+  padding-left: 0.5em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .social-links li i {
+  font-size: 26px;
 }
 
 
