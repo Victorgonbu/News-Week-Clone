@@ -8,8 +8,8 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ea4197418c.js" crossorigin="anonymous"></script>
@@ -18,7 +18,8 @@
 </head>
 
 <body class="container-fluid p-0 ">
-    <header >
+    <header class="" >
+       
     </header>
 
     <main>
@@ -26,6 +27,26 @@
         <div class="header sticky-top">
 
             <nav class=" d-flex flex-row">
+
+                <div class="date d-none d-lg-block d-lg-flex flex-lg-column justify-content-between text-white">
+                    <a href="">
+                        <picture>
+                            <img class="weather" src="https://g.newsweek.com/img/weather/30.png" alt="">
+                        </picture>
+                        28°
+                        <span class="pl-1">
+                            Cali, CO  
+                        </span>
+
+                        <picture>
+                            <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="">
+                        </picture>
+
+                    </a>
+
+                    <date class="d-block">Sun, Jun 14, 2020</date>
+                </div>
+               
                 <a href="" class="brand">
                     <svg class="align-top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
@@ -38,16 +59,16 @@
                     </svg>
                 </a>
     
-                <div class=" d-flex align-items-center w-50 justify-content-end">
+                <div class=" d-flex align-items-center align-items-lg-end  justify-content-end">
     
-                    <button type="button" class=" btn text-light ">
+                    <button type="button" class=" btn text-light pl-lg-0 pb-lg-0">
                         <i class="fas fa-user d-md-none"></i>
-                        <span class="d-none d-md-inline-block bolder">LOGIN</span>
+                        <span class="d-none d-md-inline-block bolder ">LOGIN</span>
 
                     </button>
                     <button type="button" class="subscribe-btn  text-dark text-uppercase ">Subscribe <i
                             class="fas fa-greater-than fa"></i></button>
-                    <button class=" navbar-toggler pr-0 text-right" data-toggle="collapse" data-target="#thetarget">
+                    <button class=" navbar-toggler pr-0 text-right d-lg-none" data-toggle="collapse" data-target="#thetarget">
                                 <i class="fas fa-bars"></i>
                             </button>
                 </div>
@@ -58,6 +79,8 @@
             </nav>
 
         </div>
+
+        <div class="nav-bar"></div>
 
         <div class="container-fluid wrapper-content p-0 d-flex flex-column flex-md-row flex-md-wrap ">
             <section class="story-cards top-story card border-0 mb-3 col-md-7">

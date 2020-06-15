@@ -137,13 +137,38 @@ footer .social-links li i {
   font-size: 26px;
 }
 
-
-
-
    
+  }
 
+  @media (min-width: 992px) {
+    
+    .sticky{
+       top: 94px;
+    }
 
-   
+    .header nav {
+      height: 95px;
+     }
+
+     .header nav .brand {
+       width: 396px;
+     }
+
+     .header .date {
+       width: 187.33px;
+     }
+
+     .header .date  .weather {
+       width: 24px;
+     }
+
+     .header .date > a {
+       color: white;
+       text-decoration: none;
+       font-size: 15px;
+       font-weight: 700;
+     }
+  
   }
 
 
