@@ -91,11 +91,6 @@ main div.wrapper-content {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.news-category h2 a {
-  color: #f72210;
-  font-size: 0.7em;
-}
-
 .story-cards figure a {
   position: absolute;
   left: 0;
@@ -145,10 +140,18 @@ footer .edition-links li a {
   text-decoration: none;
 }
 
+.magazine div div {
+  line-height: 1;
+}
+
 .magazine a:hover {
   text-decoration: none;
-  display: inline;
   border-bottom: 1px solid red;
+}
+
+.news-category > h2 a:first-child {
+  color: #f72210;
+  font-size: 0.7em;
 }
 
 .editors-pick-wrapper h2 a:hover {
