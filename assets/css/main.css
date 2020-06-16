@@ -198,6 +198,10 @@ main div.wrapper-content {
   font-weight: 700;
 }
 
+.debate-section .opinion li:first-child a {
+    color: rgba(3, 3, 3, 0.4);
+}
+
 .debate-section .opinion .media .media-body a {
   display: inline-block;
   font-size: 1.03em;
