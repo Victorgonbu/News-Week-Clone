@@ -1,0 +1,270 @@
+@media (min-width: 768px) {
+  html {
+    background-color: #f4f5f6;
+  }
+
+  .top-story {
+    order: 1;
+  }
+
+  .more-stories-hero {
+    order: 3;
+  }
+
+  .debate-section {
+    order: 4;
+  }
+
+  .story-cards.featured-stories {
+    order: 0;
+  }
+
+  .story-cards.featured-stories.sponsored-section {
+    order: 2;
+  }
+
+  .story-cards.featured-stories.sponsored-section.sponsored-section-2 {
+    order: 5;
+    max-width: 362px;
+    margin: 0 auto;
+  }
+
+  .sponsored-section.sponsored-section-2 .form {
+    max-width: 90%;
+  }
+
+  .header nav div button:first-child {
+    font-size: 18px;
+  }
+
+  .header button.subscribe-btn {
+    width: 128px;
+    font-size: 1.1em;
+  }
+
+  .header nav div button:last-child {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  body.container-fluid.p-0 {
+    background-color: white;
+  }
+
+  .my-turn-and-culture {
+    padding-bottom: 0;
+  }
+
+  div.magazine-wrapper h6 {
+    margin: 0 1em;
+    width: calc(100% - 2em);
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 0.5em;
+  }
+
+  footer .edition-links li a {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    line-height: 14px;
+    display: block;
+    padding: 0 4px;
+  }
+
+  .in-the-magazine div.magazine a {
+    font-size: 1.2em;
+  }
+
+  .news-category div .card-title {
+    font-size: 1.38em;
+  }
+
+  .news-category ul .card-title {
+    font-size: 1.05em;
+  }
+
+  div.subscribe-content {
+    height: 100%;
+  }
+
+  .newssletter .subscribe .sub-content {
+    position: static;
+  }
+
+  .newssletter .subscribe .sub-content h5 {
+    font-size: 1.4em;
+  }
+
+  .submission .form img {
+    max-width: 191px;
+    height: 233px;
+  }
+
+  .submission .form div {
+    width: 100%;
+  }
+
+  footer .edition-links label strong {
+    line-height: 13px;
+  }
+
+  footer .social-links p {
+    padding-left: 0.5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  footer .edition-links label {
+    line-height: 1px;
+  }
+
+  footer .social-links li i {
+    font-size: 26px;
+  }
+
+  footer .edition-links li {
+    margin-bottom: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  .sticky {
+    top: 94px;
+  }
+
+  .header nav {
+    height: 95px;
+  }
+
+  .header nav .brand {
+    width: 396px;
+  }
+
+  .header .date {
+    width: 187.33px;
+  }
+
+  .header .date .weather {
+    width: 24px;
+  }
+
+  .header-bottom nav ul li a {
+    display: inline-block;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 5px;
+    width: 100%;
+  }
+
+  .header .date > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .header-bottom nav {
+    width: 96%;
+    height: 56px;
+    border-bottom: 1px solid #f4f5f6;
+    position: relative;
+  }
+
+  .header-bottom > div {
+    width: 4%;
+    height: 15px;
+    background-color: red;
+  }
+
+  .header-bottom nav ul {
+    width: 91%;
+    height: 56px;
+    background-color: #fff;
+    border-bottom: 1px solid #f4f5f6;
+  }
+
+  .header-bottom nav ul li {
+    padding: 15px 0;
+  }
+
+  .header-bottom nav ul > * {
+    padding: 15px 5px;
+    flex-basis: 0;
+    text-align: center;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .header-bottom nav ul > li:nth-child(2),
+  .header-bottom nav ul > li:nth-child(1) {
+    flex-grow: 0.7;
+  }
+
+  .header-bottom nav ul > li:nth-child(4) {
+    flex-grow: 1.8;
+  }
+
+  .header-bottom nav ul > li:nth-child(9) {
+    flex-grow: 1.35;
+  }
+
+  .header-bottom nav form {
+    width: 9%;
+    background-color: #fff;
+  }
+
+  .header-bottom nav form input {
+    width: 55%;
+    border: 0;
+    margin-left: 3px;
+  }
+
+  .header-bottom nav form i {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .top-story {
+    order: 1;
+  }
+
+  .more-stories-hero {
+    order: 4;
+  }
+
+  .debate-section {
+    order: 2;
+  }
+
+  .story-cards.featured-stories {
+    order: 0;
+  }
+
+  .story-cards.featured-stories.sponsored-section {
+    order: 3;
+  }
+
+  .story-cards.featured-stories.sponsored-section.sponsored-section-2 {
+    order: 5;
+  }
+
+  .sticky-lg {
+    position: sticky;
+    top: 95px;
+  }
+
+  .newssletter .submission {
+    height: 368px;
+  }
+
+  .submission .form img {
+    height: 317px;
+  }
+
+  .newssletter .subscribe {
+    height: 333px;
+  }
+}

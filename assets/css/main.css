@@ -1,0 +1,489 @@
+.bolder {
+  font-weight: 700;
+}
+
+.sticky {
+  position: sticky;
+  top: 50px;
+}
+
+.fa {
+  font-size: 8px;
+  vertical-align: middle;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.header nav {
+  width: 100%;
+  height: 50px;
+  padding: 15px 15px;
+  background-color: #f72210;
+  justify-content: space-between;
+}
+
+.header nav .brand {
+  width: 132px;
+}
+
+footer .social-links svg {
+  width: 236px;
+  fill: #f72210;
+}
+
+.header nav .brand svg {
+  fill: white;
+}
+
+button.subscribe-btn {
+  border: 0;
+  width: 93px;
+  font-size: 0.85em;
+  border-radius: 16px;
+  padding: 1px 10px;
+  font-weight: 700;
+  background-color: #ffe400;
+  display: inline-block;
+}
+
+.sub-content button {
+  background-color: #f72210;
+  color: white;
+  font-weight: 700;
+  width: 122px;
+}
+
+.submission form button,
+.sponsored-section-2 .form button {
+  background-color: #f61602;
+}
+
+.header nav div button:last-child {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+body.container-fluid {
+  max-width: 1310px;
+  min-width: 320px;
+  background-color: #f4f5f6;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main {
+  position: relative;
+}
+
+main div.wrapper-content {
+  max-width: 100%;
+}
+
+.opinion > a,
+.debate-section article > a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.story-cards figure a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.story-cards h2 a {
+  color: black;
+  font-size: 0.6em;
+  font-weight: 700;
+}
+
+.main-stories h2 a {
+  font-size: 0.5em;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+footer .edition-links li a {
+  color: #666;
+  font-weight: 400;
+}
+
+.debate-section a:hover {
+  text-decoration: none;
+}
+
+.editors-pick-wrapper h2 {
+  line-height: 0;
+}
+
+.news-category .card-title a {
+  color: black;
+}
+
+.in-the-magazine .magazine a {
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.more-stories-hero .more-stories a {
+  color: #000;
+  font-size: 17px;
+}
+
+.main-stories a:hover {
+  text-decoration: none;
+}
+
+.magazine div div {
+  line-height: 1;
+}
+
+.magazine a:hover,
+.editors-pick-wrapper h2 a:hover {
+  text-decoration: none;
+  display: inline;
+  border-bottom: 1px solid red;
+}
+
+.news-category > h2 a:first-child {
+  color: #f72210;
+  font-size: 0.7em;
+}
+
+.main-stories span {
+  display: inline-block;
+  font-size: 0.8em;
+  background-color: #c2d4d7;
+  border: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0 3px 0 3px;
+}
+
+.editors-pick-wrapper h4 {
+  margin: 0 1em;
+  font-size: 1.2em;
+  letter-spacing: -0.2px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.story-cards span {
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.editors-pick-wrapper h4 span {
+  background-color: #f72210;
+}
+
+.story-cards a.btn {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  border-radius: 0;
+  font-weight: 600;
+  border: 0;
+}
+
+.news-category h2 {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 0.4em;
+  margin: 0 0.5em;
+  padding-bottom: 0.15em;
+}
+
+.story-cards article h2 {
+  line-height: 0.7;
+}
+
+.news-category h2 a:hover {
+  text-decoration: none;
+}
+
+.story-cards article h2 a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.story-cards.featured-stories.sponsored-section {
+  width: 100%;
+}
+
+.story-cards.featured-stories.sponsored-section a.btn {
+  color: #3584f4;
+}
+
+.story-cards figure {
+  position: relative;
+}
+
+.story-cards p {
+  font-size: 0.82em;
+}
+
+footer .edition-links li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.news-category .card-title a:hover,
+.more-stories-hero .more-stories a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.more-stories-hero .more-stories li:first-child,
+.main-stories .my-turn-and-culture .card-tittle a,
+.debate-section .opinion li:first-child a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.news-category .card-title.sub-link a:hover {
+  color: #f72210;
+  border-bottom: 0;
+}
+
+.debate-section .opinion .media .media-body a {
+  display: inline-block;
+  font-size: 1.03em;
+  font-weight: 700;
+  color: #000;
+  line-height: 1;
+}
+
+.debate-section .opinion li .media-body a:hover {
+  color: red;
+}
+
+.debate-section .wrapper-debate {
+  height: 290px;
+  background-color: #fff;
+}
+
+.debate-section .wrapper-debate .versus {
+  height: 10%;
+  position: relative;
+  justify-content: center;
+}
+
+.debate-section .wrapper-debate .versus div {
+  border: 0.1px solid #333;
+  height: 11%;
+}
+
+footer .social-links li i {
+  color: #666;
+}
+
+.debate-section .wrapper-debate .versus i {
+  position: absolute;
+  background-color: #000;
+  font-weight: 700;
+}
+
+.debate-section .media.first {
+  border-top: 3px solid red;
+  height: 40%;
+}
+
+.debate-section .debate.media:last-child {
+  border-bottom: 3px solid #1c87fb;
+  height: 40%;
+}
+
+.news-category ul li img {
+  max-width: 95px;
+}
+
+.two-images img:last-child {
+  right: 0;
+  bottom: 0;
+  width: 67%;
+  height: 95%;
+  position: absolute;
+}
+
+.two-images img:first-child {
+  width: 70%;
+  height: 95%;
+}
+
+.debate-section .debate.media img {
+  max-width: 63px;
+  max-height: 63px;
+}
+
+.debate-section .debate.media h3 {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.magazine-wrapper h6 span {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 1px 6px;
+  background-color: #f72210;
+}
+
+.in-the-magazine figure span {
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+  color: #f72210;
+  font-size: 1em;
+  background-color: white;
+  padding: 0.4em;
+}
+
+.submission form label span {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: initial;
+  font-size: 0.95em;
+}
+
+.sponsored-section-2 .form span {
+  display: inline-block;
+  text-align: center;
+  width: 29px;
+  height: 28px;
+  background-color: #f61602;
+  color: #fff;
+}
+
+.in-the-magazine .magazine span {
+  font-weight: 700;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.in-the-magazine .magazine span:nth-child(2) {
+  color: #f72210;
+}
+
+.in-the-magazine .magazine span:first-child {
+  color: #fff;
+  background-color: #f72210;
+}
+
+.debate-section .debate.media p span {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+footer .social-links p {
+  color: #666;
+}
+
+.more-stories-hero .more-stories p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.debate-section .opinion .media .media-body p {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.featured-stories.sponsored-section > div > * {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+}
+
+.main-stories .my-turn-and-culture {
+  border: 0;
+}
+
+.sponsored-section-2 .form {
+  background-color: #f4f5f6;
+  max-width: 80%;
+}
+
+.sponsored-section-2 .form div.d-flex {
+  align-items: center;
+}
+
+.sponsored-section-2 .form div.d-flex label {
+  line-height: 1;
+  font-size: 1.2em;
+}
+
+.submission form input {
+  border: 2px solid #ebebeb;
+}
+
+.sponsored-section-2 .form input {
+  border: 1px solid rgb(206, 202, 202);
+}
+
+.magazine-wrapper h6 {
+  font-size: 1.2em;
+}
+
+.news-category .card-title {
+  line-height: 1.1;
+}
+
+.in-the-magazine .card-title:hover {
+  background: #dbdcdd;
+  text-decoration: none;
+}
+
+.in-the-magazine .magazine picture {
+  width: 100%;
+  padding: 45%;
+  max-height: 300px;
+  background-image: url(https://d.newsweek.com/en/full/1596483/china-hong-kong-future-opener.jpg?w=466&h=311&l=24&t=59&q=90&f=9b1b20405dea54feff9dcfaafbb625ac);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.in-the-magazine .magazine picture:hover {
+  cursor: pointer;
+}
+
+.newssletter h6 {
+  color: #f72210;
+  font: 1em;
+  font-weight: 600;
+}
+
+.newssletter .sub-content {
+  top: 51%;
+}
+
+.subscribe .sub-content {
+  position: absolute;
+}
+
+.subscribe-content {
+  height: 400px;
+}
+
+.submission form {
+  border: 1px solid #ebebeb;
+  margin: 0 1em 0 1em;
+}
+
+.submission form label .title {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.two-images {
+  height: 245px;
+  min-width: 260px;
+  margin: 0 auto;
+  display: flex;
+}
+
+footer {
+  position: relative;
+  top: 10px;
+}
+
+footer .social-links {
+  border-bottom: 1px solid #d9d9d9;
+}
