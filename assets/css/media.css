@@ -3,9 +3,6 @@
     background-color: #f4f5f6;
   }
 
-  body {
-  }
-
   .top-story {
     order: 1;
   }
@@ -60,9 +57,17 @@
 
   div.magazine-wrapper h6 {
     margin: 0 1em;
-    width: calc(100%-2em);
+    width: calc(100% - 2em);
     border-bottom: 1px solid #d9d9d9;
     padding-bottom: 0.5em;
+  }
+
+  footer .edition-links li a {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    line-height: 14px;
+    display: block;
+    padding: 0 4px;
   }
 
   .in-the-magazine div.magazine a {
@@ -100,14 +105,6 @@
 
   footer .edition-links label strong {
     line-height: 13px;
-  }
-
-  footer .edition-links li a {
-    border-left: 1px solid #d9d9d9;
-    border-right: 1px solid #d9d9d9;
-    line-height: 14px;
-    display: block;
-    padding: 0 4px;
   }
 
   footer .social-links p {
@@ -150,6 +147,18 @@
     width: 24px;
   }
 
+  .header-bottom nav ul li a {
+    display: inline-block;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 5px;
+    width: 100%;
+  }
+
   .header .date > a {
     color: white;
     text-decoration: none;
@@ -176,20 +185,9 @@
     background-color: #fff;
     border-bottom: 1px solid #f4f5f6;
   }
+
   .header-bottom nav ul li {
     padding: 15px 0;
-  }
-
-  .header-bottom nav ul li a {
-    display: inline-block;
-    font-size: 19px;
-    line-height: 22px;
-    font-weight: 700;
-    color: #000;
-    text-decoration: none;
-    border-right: 1px solid #d9d9d9;
-    padding: 0 5px;
-    width: 100%;
   }
 
   .header-bottom nav ul > * {
@@ -199,6 +197,7 @@
     flex-grow: 1;
     max-width: 100%;
   }
+
   .header-bottom nav ul > li:nth-child(2),
   .header-bottom nav ul > li:nth-child(1) {
     flex-grow: 0.7;
@@ -207,6 +206,7 @@
   .header-bottom nav ul > li:nth-child(4) {
     flex-grow: 1.8;
   }
+
   .header-bottom nav ul > li:nth-child(9) {
     flex-grow: 1.35;
   }
