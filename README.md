@@ -1,7 +1,7 @@
 # News-Week-Clone
 The goal of this project was to learn about Bootstrap and to apply it to create 3 different web views to clone the Newsweek site.
 
-![screenshot]()
+![screenshot](./assets/img/SCREENSHOT.PNG)
 
 This web page is developed by HTML5, CSS and Bootstrap.
 
@@ -15,7 +15,7 @@ This web page is developed by HTML5, CSS and Bootstrap.
 
 ## Live Demo
 
-Comming soon...
+https://shaqri.github.io/News-Week-Clone/
 
 ## Getting Started
 
