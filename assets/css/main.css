@@ -12,10 +12,6 @@
   vertical-align: middle;
 }
 
-header {
-  z-index: 1;
-}
-
 img:hover {
   cursor: pointer;
 }
@@ -59,10 +55,7 @@ button.subscribe-btn {
   width: 122px;
 }
 
-.submission form button {
-  background-color: #f61602;
-}
-
+.submission form button,
 .sponsored-section-2 .form button {
   background-color: #f61602;
 }
@@ -144,20 +137,16 @@ footer .edition-links li a {
   line-height: 1;
 }
 
-.magazine a:hover {
+.magazine a:hover,
+.editors-pick-wrapper h2 a:hover {
   text-decoration: none;
+  display: inline;
   border-bottom: 1px solid red;
 }
 
 .news-category > h2 a:first-child {
   color: #f72210;
   font-size: 0.7em;
-}
-
-.editors-pick-wrapper h2 a:hover {
-  text-decoration: none;
-  display: inline;
-  border-bottom: 1px solid red;
 }
 
 .main-stories span {
@@ -236,20 +225,14 @@ footer .edition-links li a:hover {
   text-decoration: none;
 }
 
-.news-category .card-title a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid #f72210;
-}
-
+.news-category .card-title a:hover,
 .more-stories-hero .more-stories a:hover {
   text-decoration: none;
   border-bottom: 1px solid red;
 }
 
-.main-stories .my-turn-and-culture .card-tittle a {
-  color: rgba(3, 3, 3, 0.5);
-}
-
+.more-stories-hero .more-stories li:first-child,
+.main-stories .my-turn-and-culture .card-tittle a,
 .debate-section .opinion li:first-child a {
   color: rgba(3, 3, 3, 0.4);
 }
@@ -406,10 +389,6 @@ footer .social-links p {
 .featured-stories.sponsored-section > div > * {
   border: 1px solid #e6e6e6;
   width: 100%;
-}
-
-.more-stories-hero .more-stories li:first-child {
-  color: rgba(3, 3, 3, 0.4);
 }
 
 .main-stories .my-turn-and-culture {
