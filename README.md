@@ -1,5 +1,5 @@
 # News-Week-Clone
-The goal of this project was to learn about Bootstrap and to apply it to create 3 different web views to clone the Newsweek site.
+The goal of this project was to learn about Bootstrap, I apply it to create all the Newsweek page viewports.
 
 ![screenshot](./assets/img/SCREENSHOT.PNG)
 
