@@ -173,6 +173,16 @@
     position: relative;
   }
 
+  .header-bottom nav::before {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 15px solid white;
+    border-right: 15px solid red;
+  }
+
   .header-bottom > div {
     width: 4%;
     height: 15px;
